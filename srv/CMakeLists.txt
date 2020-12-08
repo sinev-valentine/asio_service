@@ -13,6 +13,7 @@ include_directories(
         ${Boost_INCLUDE_DIR}
         ${CMAKE_SOURCE_DIR}/lib
 )
+
 file(GLOB SRC *.cpp")
 file(GLOB HPP *.hpp")
 
